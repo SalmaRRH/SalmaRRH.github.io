@@ -1,0 +1,84 @@
+.marca {
+    background-color: rgb(117, 16, 16);
+    padding-top: 90px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.marca p {
+    color: white;
+}
+
+.menu_fijo {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    z-index: 100;
+    padding-top: 10px;
+    background-color: rgb(235, 233, 233);
+    position: fixed;
+    width: 100%;
+}
+
+.productos {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.productos img {
+    width: 100%;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: rgb(215, 212, 212);
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer ul {
+    list-style: none;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer img {
+    max-width: min-content;
+}
+
+.profeco {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconos {
+    margin: auto;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.final {
+    border-top: 2px solid white;
+    height: 60px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-style: italic;
+}
